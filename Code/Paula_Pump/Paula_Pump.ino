@@ -1,5 +1,6 @@
 //1.1///////////////// Init Pump Timer ///////////////////
 
+//Air Pump
 // Pump Test
 //const long pumpInterval = 10000;
 //const long pumpRuntime = 2000;
@@ -11,8 +12,11 @@ unsigned long lastTimePumpStart = 0;
 
 int Relay = 12;
 
-int statusIndicatorLED = 27; // Status LED
 
+//Peristaltic Pump
+int Mosfet = 
+
+int statusIndicatorLED = 27; // Status LED
 
 void setup() {
 
