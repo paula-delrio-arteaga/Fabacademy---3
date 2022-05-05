@@ -35,4 +35,4 @@
 - Screws</p>
 
 
-    <div></div>
+    <div style="display: hidden"></div>
