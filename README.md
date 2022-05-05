@@ -23,7 +23,7 @@
   <h4>Electronics</h4>
 
   <h4>Fabrication</h4>
-    - 3mm Acrylic pane
+    <p>- 3mm Acrylic pane
 - 2mm mdf sheet
 - 2 large glass bottles
 - 1 small glass harvesting bottle
@@ -31,6 +31,6 @@
 - Tubing
 - Grow LED lights
 - Tube connectors
-- Screws
+- Screws</p>
 
     <p>We first designed the stand/box in rhino. The upper panels of acrylic and mdf were cut on the laser cutter while the drawer and structure of the box was cut using the CNC. The bottle caps were modeled and then 3D printed with flexible filament. After everything was cut, the pieces were assembled into a box. To create the sensor mold, it was first 3D printed, then hard silicone was poured in while the sensors were suspended. LED lights were inserted into the top panel to provide light to the bottles from below.</p>
