@@ -59,6 +59,11 @@ We first designed the stand/box in rhino. The upper panels of acrylic and mdf we
 
 #### System Diagram
 
+We add two sensors to the bread board and connect them to the circuit that we already had from the privious photobioreacrtor. 
+Using proper resistor to each sensor. The sensor changes its value acording to the voltage recivied buy the resistor. By declaring a threshold and some variables we were able to monitorized our spirulina for the two main reasons the spirulina could be damaged, too low or high temperature or too much direct sunlight during the high UV peak hours that are very comnon in BCN. Eventually when the temperature drops at night it will light our Grow LED lights and if the sunlught is too bright it would activate a servo motor to unroll a cortain for shade. 
+
+
+
 #### Integrated Design
 Interfaces server with the output values of our sensors : http://172.16.23.12/
 
