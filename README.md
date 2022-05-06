@@ -19,6 +19,8 @@ The PBR maintains optimal conditions for spirulina by providing and monitoring t
 ### Plan And Execution
 Before starting anything, we began by thinking back on the photobioreator1.0 and establishing what we wanted to change, modify, or keep the same. We then researched and looked for inspiration through other spirulina growing references we found. Some of these resources included Eduardo Chamorro’s project Sphira and a company for growing your own spirulina called spirulina society. We threw all of our ideas onto the miro board, wrote down a rough plan of what we would do each day of the week, and got started. Given the need for practicality and more complex electronics, we decided to make the design relatively simple compared to the previous one.
 
+![Week plan picture](Images/plan.jpg)
+
 ### Fabrication Process and Materials
 
 #### Electronics
