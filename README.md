@@ -11,7 +11,7 @@ Our updated photobioreactor will achieve these goals
 
 ### Concept
 This new and improved project is a second iteration of our photobioreator from microchallenge 2. This photobioreactor is a space for spirulina to thrive and grow in a controlled environment for cultivation.
-![Concept Miro picture](Images/concept.jpg)
+![Concept Miro picture](Images/concept_design.jpg)
 
 ### Why?
 Though the previous photobioreactor worked well for demonstrative purposes and was more fun-looking in a visual way, we wanted to create one that was more functional. This PBR will be easier to transport, move around to different locations, and is more compact. It also includes a bottom component where a harvesting bottle can be stored.
@@ -60,6 +60,7 @@ We first designed the stand/box in rhino. The upper panels of acrylic and mdf we
 #### System Diagram
 
 #### Integrated Design
+Interfaces server with the output values of our sensors : http://172.16.23.12/
 
 #### Future Development Opportunities
 With this photobioreator, we aim to be able to maintain a very controlled environment. Something that could help with this is adding a motorized shade that protects the bottles from direct sunlight when it gets too hot. We would need to add additional light sensors facing the outside of the box to detect the amount of sunlight coming in. We also thought about measuring C02 concentrations to see if the algae was in fact bioremediating the air.
@@ -70,5 +71,10 @@ With this photobioreator, we aim to be able to maintain a very controlled enviro
 - Before cutting any of the design, we put the box together in the 3D model version to ensure everything would line up. We then adjusted the model accordingly
 - The sensor molds were very finicky as they are small. We first printed a mold in PLA which stuck and ripped the silicone mold. As a second iteration, we printed one with flexi filament in a single-layered spiral print so that the mold would be easy to remove.
 - The CNC did not cut through some parts of the box file because the wood thickness was thinner at the edges. We recut some of these parts and sanded down the rest.
+- We faced some problems connecting the sensors due to mistaken librabries and sometimes the resistance wasn't the proper one. With the aid of a potentiomenter we are able to regulate the resistance to find a more stable value. The problem is that the tempature that it's sowing isn't accurate. But we have a threshold to at least calibrate it. 
+- Debugging, when mergenig the codes for web server and the sensors we faced the problem that the signal emitted by the sensor was wrong. The problem comes from the microcontroller ESP32, which once it's connected to Wifi some of the pins aren't able to read. 
+![Pins for ESP32](Images/PINS_ESP32.jpg)
+- Due to a long code we had to take in acount the importance of the order when placing different variables. 
+- How to send the right value to the the webserver? By using the variable string. [Tutorial](https://www.tutorialspoint.com/arduino/arduino_strings.htm)
 
 #### Open-source design and fabrication files
