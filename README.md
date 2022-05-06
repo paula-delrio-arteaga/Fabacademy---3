@@ -1,7 +1,8 @@
-# Fabacademy---3
-
 # Portable Photobioreactor
 ## FabAcademy Microchallenge 3
+#### Paula Del Rio Arteaga
+#### Pippa Formosa
+#### Marina Lermant
 
 Design and make an **ethical tool or artifact** that allows you to interact with others
 
@@ -24,23 +25,20 @@ Before starting anything, we began by thinking back on the photobioreator1.0 and
 
   - 2 huzzah feather ESP32
   - light sensors
-
-  2 Huzzah Feather ESP32
-Light sensor
-Temperature sensor
-Jumper wires
-Power source
-LED lights with  10 k resistor and mosfet
-Potentiometer for temperature
-Relay- air pump
-Mosfet- peristaltic pump
-10k resistor for light sensor
-Air pump
-Peristaltic pump
+  - temperature sensor
+  - jumper wires
+  - power source
+  - LED lights with 10k resistor and mosfet
+  - potentiometer for temperature
+  - relay for air pumo
+  - mosfter for persistaltic pump
+  - 10k resistor for light sensor
+  - air pump
+  - peristaltic pump
 
 
 
-####Fabrication
+#### Fabrication
 
 - 2 large glass bottles
 - 1 small glass harvesting bottles
