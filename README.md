@@ -57,10 +57,12 @@ Before starting anything, we began by thinking back on the photobioreator1.0 and
 
 We first designed the stand/box in rhino. The upper panels of acrylic and mdf were cut on the laser cutter while the drawer and structure of the box was cut using the CNC. The bottle caps were modeled and then 3D printed with flexible filament. After everything was cut, the pieces were sanded and assembled into a box. To create the sensor mold, it was first 3D printed, then hard silicone was poured in while the sensors were suspended. LED lights were inserted into the top panel to provide light to the bottles from below.
 
+![Exploded picture](Images/CNCbox.jpg)
+
 #### System Diagram
 
-We add two sensors to the bread board and connect them to the circuit that we already had from the privious photobioreacrtor. 
-Using proper resistor to each sensor. The sensor changes its value acording to the voltage recivied buy the resistor. By declaring a threshold and some variables we were able to monitorized our spirulina for the two main reasons the spirulina could be damaged, too low or high temperature or too much direct sunlight during the high UV peak hours that are very comnon in BCN. Eventually when the temperature drops at night it will light our Grow LED lights and if the sunlught is too bright it would activate a servo motor to unroll a cortain for shade. 
+We added two sensors to the bread board and connected them to the circuit that we already had from the privious photobioreacrtor. 
+Using proper resistor to each sensor. The sensor changes its value acording to the voltage recivied by the resistor. By declaring a threshold and some variables we were able to monitor our spirulina for the two main reasons; the spirulina could be damaged, too low or high temperature or too much direct sunlight during the high UV peak hours that are very comnon in BCN. Eventually when the temperature drops at night it will light our Grow LED lights and if the sunlight is too bright it would activate a servo motor to unroll a curtain for shade. 
 
 
 
@@ -78,7 +80,7 @@ With this photobioreator, we aim to be able to maintain a very controlled enviro
 - The CNC did not cut through some parts of the box file because the wood thickness was thinner at the edges. We recut some of these parts and sanded down the rest.
 - We faced some problems connecting the sensors due to mistaken librabries and sometimes the resistance wasn't the proper one. With the aid of a potentiomenter we are able to regulate the resistance to find a more stable value. The problem is that the tempature that it's sowing isn't accurate. But we have a threshold to at least calibrate it. 
 - Debugging, when mergenig the codes for web server and the sensors we faced the problem that the signal emitted by the sensor was wrong. The problem comes from the microcontroller ESP32, which once it's connected to Wifi some of the pins aren't able to read. 
-![Pins for ESP32](Images/PINS_ESP32.jpg)
+![Pins for ESP32](Images/PINS_ESP32.jpeg)
 - Due to a long code we had to take in acount the importance of the order when placing different variables. 
 - How to send the right value to the the webserver? By using the variable string. [Tutorial](https://www.tutorialspoint.com/arduino/arduino_strings.htm)
 
