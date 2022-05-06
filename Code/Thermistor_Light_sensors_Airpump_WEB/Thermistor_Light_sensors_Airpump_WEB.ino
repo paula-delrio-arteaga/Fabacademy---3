@@ -168,7 +168,7 @@ int analogValue = analogRead(LIGHT);
 }
 
 void handle_OnConnect() {
-  Temp = thermistor.read();
+  Temperature = thermistor.read();
   Light = analogRead(LIGHT);
   
   server.send(200, "text/html", SendHTML(LightText,temp1)); 
