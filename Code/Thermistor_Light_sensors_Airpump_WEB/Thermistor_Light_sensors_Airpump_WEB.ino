@@ -52,7 +52,6 @@ float temp1;
 
 String LightText = "";
 String TempText = "";
-float Temperature,Light;
 
 #include <WiFi.h>
 #include <WebServer.h>
@@ -185,7 +184,7 @@ String SendHTML( String LightText, float temp1){
   ptr +="<meta http-equiv='Refresh' content='3'>"; 
   ptr +="<title>Spirulina Station</title>\n";
   ptr +="<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}\n";
-  ptr +="body{margin-top: 50px;} h1 {color: #444444;margin: 50px auto 30px;}\n";
+  ptr +="body{margin-top: 100px;} h1 {color: #444444;margin: 50px auto 30px;}\n";
   ptr +="p {font-size: 24px;color: #444444;margin-bottom: 10px;}\n";
   ptr +="</style>\n";
   ptr +="</head>\n";
