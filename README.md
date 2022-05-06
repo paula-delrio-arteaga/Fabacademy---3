@@ -4,9 +4,17 @@
 [Pippa Formosa](https://philippa-formosa.github.io/mdefweb/),
 [Marina Lermant](https://marina-lermant.github.io/mdef-website/)
 
+
+![final picture](Images/final_fabrication_station_2.jpg)
 Design and make an **ethical tool or artifact** that allows you to interact with others
 
 Our updated photobioreactor will achieve these goals 
+- allowing greater mobility and accessibility
+- spreading information to larger audiences
+- bringing people and living species together
+- generating new ideas for nutrient intake
+- understanding new ways of creating home agriculture
+- Bioremediation of air
 
 
 ### Concept
@@ -41,11 +49,16 @@ Before starting anything, we began by thinking back on the photobioreator1.0 and
   - air pump
   - peristaltic pump
 
+
+![circuit diagram](Images/circuit-diagram-1.jpg)
+
+![Paula coding](Images/Thermistor_not_working.jpg)
+
 References used 
 
-[ESP32 Light Sensor](https://esp32io.com/tutorials/esp32-light-sensor)
-[Thermistor with Arduino](https://www.e-tinkers.com/2019/10/using-a-thermistor-with-arduino-and-unexpected-esp32-adc-non-linearity/)
-[Thermistor Library](https://www.arduino.cc/reference/en/libraries/thermistorlibrary/)
+- [ESP32 Light Sensor](https://esp32io.com/tutorials/esp32-light-sensor)
+- [Thermistor with Arduino](https://www.e-tinkers.com/2019/10/using-a-thermistor-with-arduino-and-unexpected-esp32-adc-non-linearity/)
+- [Thermistor Library](https://www.arduino.cc/reference/en/libraries/thermistorlibrary/)
 
 
 
@@ -61,7 +74,12 @@ References used
 - Tube connectors
 - screws
 
-We first designed the stand/box in rhino. The upper panels of acrylic and mdf were cut on the laser cutter while the drawer and structure of the box was cut using the CNC. The bottle caps were modeled and then 3D printed with flexible filament. After everything was cut, the pieces were sanded and assembled into a box. To create the sensor mold, it was first 3D printed, then hard silicone was poured in while the sensors were suspended. LED lights were inserted into the top panel to provide light to the bottles from below.
+We first designed the stand/box in rhino. The upper panels of acrylic and mdf were cut on the laser cutter while the drawer and structure of the box was cut using the CNC. 
+![screwing in](Images/cnc_1.jpg)
+The bottle caps were modeled and then 3D printed with flexible filament. After everything was cut, the pieces were sanded and assembled into a box. 
+To create the sensor mold, it was first 3D printed, then hard silicone was poured in while the sensors were suspended. 
+![Mold pouring](Images/molding_casting_2.jpg)
+LED lights were inserted into the top panel to provide light to the bottles from below.
 
 ![Exploded picture](Images/CNCbox.jpg)
 
