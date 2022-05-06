@@ -1,8 +1,8 @@
 # Portable Photobioreactor
 ## FabAcademy Microchallenge 3
-#### Paula Del Rio Arteaga
-#### Pippa Formosa
-#### Marina Lermant
+[Paula Del Rio Arteaga](https://paula-delrio-arteaga.github.io/mdef/)
+[Pippa Formosa](https://philippa-formosa.github.io/mdefweb/)
+[Marina Lermant](https://marina-lermant.github.io/mdef-website/)
 
 Design and make an **ethical tool or artifact** that allows you to interact with others
 
@@ -60,3 +60,11 @@ We first designed the stand/box in rhino. The upper panels of acrylic and mdf we
 
 #### Future Development Opportunities
 With this photobioreator, we aim to be able to maintain a very controlled environment. Something that could help with this is adding a motorized shade that protects the bottles from direct sunlight when it gets too hot. We would need to add additional light sensors facing the outside of the box to detect the amount of sunlight coming in. We also thought about measuring C02 concentrations to see if the algae was in fact bioremediating the air.
+
+#### Hiccups
+- We did not have enough acrylic material to create enough space that we needed for the LEDs. In order to solve this, we created a fram from mdf that would act as a spacer.
+- For the lid/caps, we originally wanted to print with flexible filament so that it could wrap around the top. It was not supported by the printer so we decided to print with PLA instead.
+- Before cutting any of the design, we put the box together in the 3D model version to ensure everything would line up. We then adjusted the model accordingly
+- The sensor molds were very finicky as they are small. We first printed a mold in PLA which stuck and ripped the silicone mold. As a second iteration, we printed one with flexi filament in a single-layered spiral print so that the mold would be easy to remove.
+- The CNC did not cut through some parts of the box file because the wood thickness was thinner at the edges. We recut some of these parts and sanded down the rest.
+
