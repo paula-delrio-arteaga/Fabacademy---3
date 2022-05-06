@@ -25,17 +25,16 @@
 
 
   <h4>Fabrication</h4>
-    <p>- 3mm Acrylic pane 2mm mdf sheet
-- 2 large glass bottles
-- 1 small glass harvesting bottle
-- 12mm wood sheet
-- Tubing
-- Grow LED lights
-- Tube connectors
-- Screws</p>
 
-- 2 large
-- 1 small
+- 2 large glass bottles
+- 1 small glass harvesting bottles
+- 3mm acrylic pane
+- 2mm mdf sheet
+- 12mm wood sheet
+- tubing
+- grow LED lights
+- Tube connectors
+- screws
 
 <ul>
 <ul>
