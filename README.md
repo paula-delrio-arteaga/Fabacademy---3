@@ -41,6 +41,12 @@ Before starting anything, we began by thinking back on the photobioreator1.0 and
   - air pump
   - peristaltic pump
 
+References used 
+
+[ESP32 Light Sensor](https://esp32io.com/tutorials/esp32-light-sensor)
+[Thermistor with Arduino](https://www.e-tinkers.com/2019/10/using-a-thermistor-with-arduino-and-unexpected-esp32-adc-non-linearity/)
+[Thermistor Library](https://www.arduino.cc/reference/en/libraries/thermistorlibrary/)
+
 
 
 #### Fabrication
