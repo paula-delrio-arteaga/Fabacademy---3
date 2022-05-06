@@ -7,7 +7,7 @@
 
 <h3>Concept</h3>
   <p>This new and improved project is a second iteration of our photobioreator from microchallenge 2. This photobioreactor is a space for spirulina to thrive and grow in a controlled environment for cultivation.</p>
-    ![Concept Miro picture](C:\Users\mlerm\OneDrive\Desktop\fabchallenge3\Fabacademy---3\concept.jpg)
+    ![Concept Miro picture](Images/concept.jpg")
 
 <h3>Why?</h3>
   <p>Though the previous photobioreactor worked well for demonstrative purposes and was more fun-looking in a visual way, we wanted to create one that was more functional. This PBR will be easier to transport, move around to different locations, and is more compact. It also includes a bottom component where a harvesting bottle can be stored.</p>
@@ -21,7 +21,23 @@
 <h3>Fabrication Process and Materials</h3>
 
   <h4>Electronics</h4>
-  <p>We first designed the stand/box in rhino. The upper panels of acrylic and mdf were cut on the laser cutter while the drawer and structure of the box was cut using the CNC. The bottle caps were modeled and then 3D printed with flexible filament. After everything was cut, the pieces were assembled into a box. To create the sensor mold, it was first 3D printed, then hard silicone was poured in while the sensors were suspended. LED lights were inserted into the top panel to provide light to the bottles from below.</p>
+
+  - 2 huzzah feather ESP32
+  - light sensors
+
+  2 Huzzah Feather ESP32
+Light sensor
+Temperature sensor
+Jumper wires
+Power source
+LED lights with  10 k resistor and mosfet
+Potentiometer for temperature
+Relay- air pump
+Mosfet- peristaltic pump
+10k resistor for light sensor
+Air pump
+Peristaltic pump
+
 
 
   <h4>Fabrication</h4>
@@ -36,10 +52,8 @@
 - Tube connectors
 - screws
 
-<ul>
-<ul>
-<li>First item</li>
-<li>1 small</li>
+  <p>We first designed the stand/box in rhino. The upper panels of acrylic and mdf were cut on the laser cutter while the drawer and structure of the box was cut using the CNC. The bottle caps were modeled and then 3D printed with flexible filament. After everything was cut, the pieces were sanded and assembled into a box. To create the sensor mold, it was first 3D printed, then hard silicone was poured in while the sensors were suspended. LED lights were inserted into the top panel to provide light to the bottles from below.</p>
+
 
 
     <div style="display: hidden"></div>
