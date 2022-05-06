@@ -1,10 +1,13 @@
 # Portable Photobioreactor
 ## FabAcademy Microchallenge 3
-[Paula Del Rio Arteaga](https://paula-delrio-arteaga.github.io/mdef/)
-[Pippa Formosa](https://philippa-formosa.github.io/mdefweb/)
+[Paula Del Rio Arteaga](https://paula-delrio-arteaga.github.io/mdef/),
+[Pippa Formosa](https://philippa-formosa.github.io/mdefweb/),
 [Marina Lermant](https://marina-lermant.github.io/mdef-website/)
 
 Design and make an **ethical tool or artifact** that allows you to interact with others
+
+Our updated photobioreactor will achieve these goals 
+
 
 ### Concept
 This new and improved project is a second iteration of our photobioreator from microchallenge 2. This photobioreactor is a space for spirulina to thrive and grow in a controlled environment for cultivation.
@@ -68,3 +71,4 @@ With this photobioreator, we aim to be able to maintain a very controlled enviro
 - The sensor molds were very finicky as they are small. We first printed a mold in PLA which stuck and ripped the silicone mold. As a second iteration, we printed one with flexi filament in a single-layered spiral print so that the mold would be easy to remove.
 - The CNC did not cut through some parts of the box file because the wood thickness was thinner at the edges. We recut some of these parts and sanded down the rest.
 
+#### Open-source design and fabrication files
