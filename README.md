@@ -77,12 +77,14 @@ References used
 We first designed the stand/box in rhino. The upper panels of acrylic and mdf were cut on the laser cutter while the drawer and structure of the box was cut using the CNC. 
 ![screwing in](Images/cnc_1.jpg)
 ![laser picture](Images/laser.jpg)
+![Exploded picture](Images/CNCbox.jpg)
+
 The bottle caps were modeled and then 3D printed with flexible filament. After everything was cut, the pieces were sanded and assembled into a box. 
 To create the sensor mold, it was first 3D printed, then hard silicone was poured in while the sensors were suspended. 
-![Mold pouring](Images/molding_casting_2.jpg)
-LED lights were inserted into the top panel to provide light to the bottles from below.
 
-![Exploded picture](Images/CNCbox.jpg)
+![Mold pouring](Images/molding_casting_2.jpg)
+
+LED lights were inserted into the top panel to provide light to the bottles from below.
 
 #### System Diagram
 
@@ -96,6 +98,8 @@ Interfaces server with the output values of our sensors : http://172.16.23.12/
 
 #### Future Development Opportunities
 With this photobioreator, we aim to be able to maintain a very controlled environment. Something that could help with this is adding a motorized shade that protects the bottles from direct sunlight when it gets too hot. We would need to add additional light sensors facing the outside of the box to detect the amount of sunlight coming in. We also thought about measuring C02 concentrations to see if the algae was in fact bioremediating the air.
+
+![Exploded picture](Images/final_fabrication_station.jpg)
 
 #### Hiccups
 - We did not have enough acrylic material to create enough space that we needed for the LEDs. In order to solve this, we created a fram from mdf that would act as a spacer.
