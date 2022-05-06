@@ -76,6 +76,7 @@ References used
 
 We first designed the stand/box in rhino. The upper panels of acrylic and mdf were cut on the laser cutter while the drawer and structure of the box was cut using the CNC. 
 ![screwing in](Images/cnc_1.jpg)
+![laser picture](Images/laser.jpg)
 The bottle caps were modeled and then 3D printed with flexible filament. After everything was cut, the pieces were sanded and assembled into a box. 
 To create the sensor mold, it was first 3D printed, then hard silicone was poured in while the sensors were suspended. 
 ![Mold pouring](Images/molding_casting_2.jpg)
