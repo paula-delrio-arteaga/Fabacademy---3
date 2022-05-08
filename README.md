@@ -102,7 +102,7 @@ With this photobioreator, we aim to be able to maintain a very controlled enviro
 ![Exploded picture](Images/final_fabrication_station.jpg)
 
 #### Hiccups
-- We did not have enough acrylic material to create enough space that we needed for the LEDs. In order to solve this, we created a fram from mdf that would act as a spacer.
+- We did not have enough acrylic material to create enough space that we needed for the LEDs. In order to solve this, we created a frame from mdf that would act as a spacer.
 - For the lid/caps, we originally wanted to print with flexible filament so that it could wrap around the top. It was not supported by the printer so we decided to print with PLA instead.
 - Before cutting any of the design, we put the box together in the 3D model version to ensure everything would line up. We then adjusted the model accordingly
 - The sensor molds were very finicky as they are small. We first printed a mold in PLA which stuck and ripped the silicone mold. As a second iteration, we printed one with flexi filament in a single-layered spiral print so that the mold would be easy to remove.
@@ -114,3 +114,5 @@ With this photobioreator, we aim to be able to maintain a very controlled enviro
 - How to send the right value to the the webserver? By using the variable string. [Tutorial](https://www.tutorialspoint.com/arduino/arduino_strings.htm)
 
 #### Open-source design and fabrication files
+Can be found on repository!
+Accesory parts were 3D printed from [Spirulina Society](https://spirulinasociety.org/home)
