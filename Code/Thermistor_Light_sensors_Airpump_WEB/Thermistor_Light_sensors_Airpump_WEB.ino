@@ -1,5 +1,5 @@
-     
- //////////////////Thermistor//////////////
+
+//////////////////Thermistor//////////////
 #include "thermistor.h"
 #include "HardwareSerial.h"
 
@@ -52,6 +52,7 @@ float temp1;
 
 String LightText = "";
 String TempText = "";
+String Temperature;
 
 #include <WiFi.h>
 #include <WebServer.h>
@@ -62,16 +63,16 @@ String TempText = "";
 const char* ssid = "Iaac-Wifi";  // Enter SSID here
 const char* password = "EnterIaac22@";  //Enter Password here
 
-WebServer server(80);  
+WebServer server(80);
 
-void setup(){
+void setup() {
   Serial.begin(9600);
-  pinMode(Relay,OUTPUT);
-  pinMode(Mosfet,OUTPUT);
+  pinMode(Relay, OUTPUT);
+  pinMode(Mosfet, OUTPUT);
   pinMode(GROW_LEDS, OUTPUT);
-  
-/////////////////////////////////
- 
+
+  /////////////////////////////////
+
 
   Serial.println("Connecting to ");
   Serial.println(ssid);
@@ -81,8 +82,8 @@ void setup(){
 
   //check wi-fi is connected to wi-fi network
   while (WiFi.status() != WL_CONNECTED) {
-  delay(1000);
-  Serial.print(".");
+    delay(1000);
+    Serial.print(".");
   }
   Serial.println("");
   Serial.println("WiFi connected..!");
@@ -93,16 +94,16 @@ void setup(){
 
   server.begin();
   Serial.println("HTTP server started");
-  digitalWrite(Relay,HIGH);
+  digitalWrite(Relay, HIGH);
   lastTimePumpStart = millis();
   digitalWrite(Mosfet, HIGH);
- } 
-  
-  
+}
+
+
 void loop()
 {
   server.handleClient();
-  
+
   temp = thermistor.read();   // Read temperature
   Serial.print("Temp in 1/10 ºC : ");
   Serial.println(temp);
@@ -110,16 +111,16 @@ void loop()
   Serial.print(temp1);
   TempText = "Temp in 1/10 ºC : " ;
 
-if (temp>200) {
-digitalWrite(GROW_LEDS,   LOW);;
-  
-}else{
-digitalWrite(GROW_LEDS,   HIGH);;
-  
-};
+  if (temp > 200) {
+    digitalWrite(GROW_LEDS,   LOW);;
 
-int analogValue = analogRead(LIGHT);
-  
+  } else {
+    digitalWrite(GROW_LEDS,   HIGH);;
+
+  };
+
+  int analogValue = analogRead(LIGHT);
+
   Serial.print("Analog Value = ");
   Serial.print(analogValue);   // the raw analog reading
 
@@ -136,12 +137,12 @@ int analogValue = analogRead(LIGHT);
     Serial.println(" => Very bright");
   }
 
-   if (analogValue < 40) {
+  if (analogValue < 40) {
     LightText = "Dark" ;
   } else if (analogValue < 800) {
     LightText = "Dim" ;
   } else if (analogValue < 2000) {
-     LightText = "Light" ;
+    LightText = "Light" ;
   } else if (analogValue < 3200) {
     LightText = "Bright" ;
   } else {
@@ -150,16 +151,16 @@ int analogValue = analogRead(LIGHT);
 
   delay(2000);
 
-////////////////////Pumps contro
+  ////////////////////Pumps contro
   if (IsPumpOn && (millis() - lastTimePumpStart >= AirpumpRuntime)) {
-    digitalWrite(Relay,LOW);
-    digitalWrite(Mosfet,LOW);
+    digitalWrite(Relay, LOW);
+    digitalWrite(Mosfet, LOW);
     IsPumpOn = false;
     lastTimePumpStop = millis();
     Serial.println("Turning pump off");
   } else if (!IsPumpOn && (millis() - lastTimePumpStop >= AirpumpInterval)) {
-    digitalWrite(Relay,HIGH);
-    digitalWrite(Mosfet,HIGH);
+    digitalWrite(Relay, HIGH);
+    digitalWrite(Mosfet, HIGH);
     IsPumpOn = true;
     Serial.println("Turning pump on");
     lastTimePumpStart = millis();
@@ -168,37 +169,37 @@ int analogValue = analogRead(LIGHT);
 }
 
 void handle_OnConnect() {
-  Temperature = thermistor.read();
-  Light = analogRead(LIGHT);
-  
-  server.send(200, "text/html", SendHTML(LightText,temp1)); 
+  //Temperature = thermistor.read();
+  //Light = analogRead(LIGHT);
+
+  server.send(200, "text/html", SendHTML(LightText, temp1));
 }
 
-void handle_NotFound(){
+void handle_NotFound() {
   server.send(404, "text/plain", "Not found");
 }
 
-String SendHTML( String LightText, float temp1){
+String SendHTML( String LightText, float temp1) {
   String ptr = "<!DOCTYPE html> <html>\n";
-  ptr +="<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">\n";
-  ptr +="<meta http-equiv='Refresh' content='3'>"; 
-  ptr +="<title>Spirulina Station</title>\n";
-  ptr +="<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}\n";
-  ptr +="body{margin-top: 100px;} h1 {color: #164719;margin: 50px auto 30px;}\n";
-  ptr +="p {font-size: 50px;color: #164719;margin-bottom: 10px;}\n";
-  ptr +="</style>\n";
-  ptr +="</head>\n";
-  ptr +="<body>\n";
-  ptr +="<div id=\"webpage\">\n";
-  ptr +="<h1>Spirulina Station</h1>\n";
-  ptr +="<p>Temperature: ";
-  ptr +=temp1;
-  ptr +="&deg;C</p>";
-  ptr +="<p>Light: ";
-  ptr +=LightText;
-  ptr +="</p>";
-  ptr +="</div>\n";
-  ptr +="</body>\n";
-  ptr +="</html>\n";
+  ptr += "<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">\n";
+  ptr += "<meta http-equiv='Refresh' content='3'>";
+  ptr += "<title>Spirulina Station</title>\n";
+  ptr += "<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}\n";
+  ptr += "body{margin-top: 100px;} h1 {color: #164719;font-size: 60px; margin: 50px auto 30px;}\n";
+  ptr += "p {font-size: 40px;color: #164719;margin-bottom: 10px;}\n";
+  ptr += "</style>\n";
+  ptr += "</head>\n";
+  ptr += "<body>\n";
+  ptr += "<div id=\"webpage\">\n";
+  ptr += "<h1>Spirulina Station</h1>\n";
+  ptr += "<p>Temperature: ";
+  ptr += temp1;
+  ptr += "&deg;C</p>";
+  ptr += "<p>Light: ";
+  ptr += LightText;
+  ptr += "</p>";
+  ptr += "</div>\n";
+  ptr += "</body>\n";
+  ptr += "</html>\n";
   return ptr;
 }
