@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 254.5 189.9"
+	 style="enable-background:new 0 0 254.5 189.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#000000;stroke-width:1.44;}
+	.st2{fill:none;stroke:#000000;stroke-width:2.1444;}
+	.st3{fill:none;stroke:#000000;stroke-width:0.72;}
+	.st4{fill:none;stroke:#000000;stroke-width:0.9564;}
+	.st5{fill:none;stroke:#000000;stroke-width:1.728;stroke-linecap:round;}
+</style>
+<g>
+	<g id="board">
+		<rect id="boardoutline" x="0.3" y="0.3" class="st0" width="253.9" height="189.4"/>
+	</g>
+</g>
+<g>
+	<g transform="translate(168.81,9.73199)">
+		<g transform="matrix(0,1,-1,0,0,0)">
+			<g id="copper0_00000116917735220878603760000001110373108702946448_">
+				<g transform="matrix(-1, 0, 0, 1, 162.451, 0)">
+					<g>
+						<g>
+							<g>
+								<g id="copper0">
+									<circle id="connector109pad" class="st1" cx="8.5" cy="57.6" r="4.3"/>
+									<circle id="connector173pad" class="st2" cx="8.5" cy="22.2" r="2.3"/>
+									
+										<rect x="6.2" y="24.5" transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 -13.6913 30.6991)" class="st2" width="4.7" height="-4.7"/>
+									<circle id="connector171pad" class="st3" cx="16.4" cy="23" r="1.5"/>
+									<path d="M14.9,20.1h3v4.5h-3L14.9,20.1 M14.9,23c0,0.8,0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5c0,0,0,0,0,0
+										c0-0.8-0.7-1.5-1.5-1.5C15.6,21.5,14.9,22.2,14.9,23C14.9,23,14.9,23,14.9,23z"/>
+									<circle id="connector45pad" class="st4" cx="127.3" cy="61.2" r="1.8"/>
+									<circle id="connector46pad" class="st4" cx="120.1" cy="61.2" r="1.8"/>
+									<circle id="connector47pad" class="st4" cx="112.9" cy="61.2" r="1.8"/>
+									<circle id="connector48pad" class="st4" cx="105.7" cy="61.2" r="1.8"/>
+									<circle id="connector49pad" class="st4" cx="98.5" cy="61.2" r="1.8"/>
+									<circle id="connector50pad" class="st4" cx="91.3" cy="61.2" r="1.8"/>
+									<circle id="connector51pad" class="st4" cx="84.1" cy="61.2" r="1.8"/>
+									<circle id="connector52pad" class="st4" cx="76.9" cy="61.2" r="1.8"/>
+									<circle id="connector53pad" class="st4" cx="69.7" cy="61.2" r="1.8"/>
+									<circle id="connector108pad" class="st1" cx="8.5" cy="7.2" r="4.3"/>
+									<circle id="connector54pad" class="st4" cx="62.5" cy="61.2" r="1.8"/>
+									<circle id="connector55pad" class="st4" cx="55.3" cy="61.2" r="1.8"/>
+									<circle id="connector56pad" class="st4" cx="48.1" cy="61.2" r="1.8"/>
+									<circle id="connector57pad" class="st4" cx="40.9" cy="61.2" r="1.8"/>
+									<circle id="connector58pad" class="st4" cx="33.7" cy="61.2" r="1.8"/>
+									<circle id="connector59pad" class="st4" cx="26.5" cy="61.2" r="1.8"/>
+									<circle id="connector60pad" class="st4" cx="19.3" cy="61.2" r="1.8"/>
+									<circle id="connector61pad" class="st4" cx="48.1" cy="3.6" r="1.8"/>
+									<circle id="connector62pad" class="st4" cx="55.3" cy="3.6" r="1.8"/>
+									<circle id="connector63pad" class="st4" cx="62.5" cy="3.6" r="1.8"/>
+									<circle id="connector64pad" class="st4" cx="69.7" cy="3.6" r="1.8"/>
+									<circle id="connector65pad" class="st4" cx="76.9" cy="3.6" r="1.8"/>
+									<circle id="connector66pad" class="st4" cx="84.1" cy="3.6" r="1.8"/>
+									<circle id="connector67pad" class="st4" cx="91.3" cy="3.6" r="1.8"/>
+									<circle id="connector68pad" class="st4" cx="98.5" cy="3.6" r="1.8"/>
+									<circle id="connector69pad" class="st4" cx="105.7" cy="3.6" r="1.8"/>
+									<circle id="connector70pad" class="st4" cx="112.9" cy="3.6" r="1.8"/>
+									<circle id="connector71pad" class="st4" cx="120.1" cy="3.6" r="1.8"/>
+									<circle id="connector72pad" class="st4" cx="127.3" cy="3.6" r="1.8"/>
+									<circle id="connector172pad" class="st3" cx="16.4" cy="41.8" r="1.5"/>
+									<path d="M14.9,40.3h3v4.5h-3L14.9,40.3 M14.9,41.8c0,0.8,0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5c0,0,0,0,0,0
+										c0-0.8-0.7-1.5-1.5-1.5C15.6,40.3,14.9,40.9,14.9,41.8C14.9,41.7,14.9,41.8,14.9,41.8z"/>
+									<circle id="connector174pad" class="st2" cx="8.5" cy="42.6" r="2.3"/>
+									
+										<rect x="6.2" y="45" transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 -34.1008 51.1087)" class="st2" width="4.7" height="-4.7"/>
+								</g>
+							</g>
+							<g>
+								
+									<circle id="connector109pad_00000129907386987647938050000018331332606106751133_" class="st1" cx="8.5" cy="57.6" r="4.3"/>
+								
+									<circle id="connector173pad_00000029768303210474586630000014571178369295939734_" class="st2" cx="8.5" cy="22.2" r="2.3"/>
+								
+									<rect x="6.2" y="24.5" transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 -13.6913 30.6991)" class="st2" width="4.7" height="-4.7"/>
+								<circle id="connector171pad_00000156554798134099412890000006659901962810740927_" class="st3" cx="16.4" cy="23" r="1.5"/>
+								<path d="M14.9,20.1h3v4.5h-3L14.9,20.1 M14.9,23c0,0.8,0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5c0,0,0,0,0,0
+									c0-0.8-0.7-1.5-1.5-1.5C15.6,21.5,14.9,22.2,14.9,23C14.9,23,14.9,23,14.9,23z"/>
+								
+									<circle id="connector45pad_00000007412972747067604850000009651284361649143732_" class="st4" cx="127.3" cy="61.2" r="1.8"/>
+								
+									<circle id="connector46pad_00000140728695380929778300000008851679363935899265_" class="st4" cx="120.1" cy="61.2" r="1.8"/>
+								
+									<circle id="connector47pad_00000116224927830773822300000001168676384166800031_" class="st4" cx="112.9" cy="61.2" r="1.8"/>
+								
+									<circle id="connector48pad_00000023959892332832969410000011618014054962698929_" class="st4" cx="105.7" cy="61.2" r="1.8"/>
+								
+									<circle id="connector49pad_00000042700180410192535630000005266295703087813821_" class="st4" cx="98.5" cy="61.2" r="1.8"/>
+								
+									<circle id="connector50pad_00000114043710791377790310000003795393954719489428_" class="st4" cx="91.3" cy="61.2" r="1.8"/>
+								
+									<circle id="connector51pad_00000138545833848272386830000017806705595039309746_" class="st4" cx="84.1" cy="61.2" r="1.8"/>
+								
+									<circle id="connector52pad_00000103240772108518830200000007343983343553475723_" class="st4" cx="76.9" cy="61.2" r="1.8"/>
+								
+									<circle id="connector53pad_00000002376605768548635600000014196363737519095179_" class="st4" cx="69.7" cy="61.2" r="1.8"/>
+								<circle id="connector108pad_00000163045913562009542360000017291563005584841863_" class="st1" cx="8.5" cy="7.2" r="4.3"/>
+								
+									<circle id="connector54pad_00000072992717386068590670000013390210554073674632_" class="st4" cx="62.5" cy="61.2" r="1.8"/>
+								
+									<circle id="connector55pad_00000042733854644895334790000002527658412812948141_" class="st4" cx="55.3" cy="61.2" r="1.8"/>
+								
+									<circle id="connector56pad_00000154385993290371160550000001759997923956273299_" class="st4" cx="48.1" cy="61.2" r="1.8"/>
+								
+									<circle id="connector57pad_00000059292725287428361140000008734142953026237313_" class="st4" cx="40.9" cy="61.2" r="1.8"/>
+								
+									<circle id="connector58pad_00000030479527636468290140000011363072758086040220_" class="st4" cx="33.7" cy="61.2" r="1.8"/>
+								
+									<circle id="connector59pad_00000147201882576120610070000016219449235821152172_" class="st4" cx="26.5" cy="61.2" r="1.8"/>
+								
+									<circle id="connector60pad_00000111911711974269891210000014080091787426553269_" class="st4" cx="19.3" cy="61.2" r="1.8"/>
+								<circle id="connector61pad_00000157993087878102387320000018113519897720057271_" class="st4" cx="48.1" cy="3.6" r="1.8"/>
+								<circle id="connector62pad_00000027569113982747613040000017504813678813968547_" class="st4" cx="55.3" cy="3.6" r="1.8"/>
+								<circle id="connector63pad_00000063592351968252874850000007737723642924235942_" class="st4" cx="62.5" cy="3.6" r="1.8"/>
+								<circle id="connector64pad_00000021089931636731552160000008324237097647767173_" class="st4" cx="69.7" cy="3.6" r="1.8"/>
+								<circle id="connector65pad_00000062875769888358654850000003051919807056477882_" class="st4" cx="76.9" cy="3.6" r="1.8"/>
+								<circle id="connector66pad_00000116926242800134118270000012257369264525774500_" class="st4" cx="84.1" cy="3.6" r="1.8"/>
+								<circle id="connector67pad_00000003819637032249795170000004449567306595906218_" class="st4" cx="91.3" cy="3.6" r="1.8"/>
+								<circle id="connector68pad_00000049926908369680829490000006869529695007429554_" class="st4" cx="98.5" cy="3.6" r="1.8"/>
+								
+									<circle id="connector69pad_00000059992370351247836190000003955096039250263218_" class="st4" cx="105.7" cy="3.6" r="1.8"/>
+								
+									<circle id="connector70pad_00000043426221138883121120000002246944041269573257_" class="st4" cx="112.9" cy="3.6" r="1.8"/>
+								
+									<circle id="connector71pad_00000088824077432579307580000011702052276468923811_" class="st4" cx="120.1" cy="3.6" r="1.8"/>
+								
+									<circle id="connector72pad_00000173880840625596127710000002714084332281760140_" class="st4" cx="127.3" cy="3.6" r="1.8"/>
+								
+									<circle id="connector172pad_00000034779980154921318790000016353986759791229610_" class="st3" cx="16.4" cy="41.8" r="1.5"/>
+								<path d="M14.9,40.3h3v4.5h-3L14.9,40.3 M14.9,41.8c0,0.8,0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5c0,0,0,0,0,0
+									c0-0.8-0.7-1.5-1.5-1.5C15.6,40.3,14.9,40.9,14.9,41.8C14.9,41.7,14.9,41.8,14.9,41.8z"/>
+								
+									<circle id="connector174pad_00000096766998590046347470000005971948340720277664_" class="st2" cx="8.5" cy="42.6" r="2.3"/>
+								
+									<rect x="6.2" y="45" transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 -34.1008 51.1087)" class="st2" width="4.7" height="-4.7"/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g transform="translate(156.57,69.3733)">
+		<g transform="matrix(-1,0,0,-1,0,0)">
+			<g id="copper0_00000151532459138593254000000003641576944933509262_">
+				<rect x="6.4" y="12.2" class="st1" width="4.5" height="4.5"/>
+				<circle id="connector0pad" class="st1" cx="8.6" cy="14.4" r="2.2"/>
+				<circle id="connector1pad" class="st1" cx="15.8" cy="14.4" r="2.2"/>
+				<circle id="connector2pad" class="st1" cx="23" cy="14.4" r="2.2"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g transform="translate(113.37,73.6933)">
+		<g id="copper0_00000026155252564709331300000017045864563292803717_">
+			<rect x="6.4" y="12.2" class="st1" width="4.5" height="4.5"/>
+			<circle id="connector0pad_00000027604168897222236610000014486573903641490835_" class="st1" cx="8.6" cy="14.4" r="2.2"/>
+			<circle id="connector1pad_00000074430514295740961640000018285051508599262866_" class="st1" cx="15.8" cy="14.4" r="2.2"/>
+			<circle id="connector2pad_00000078004476315109808970000016347293783601352851_" class="st1" cx="23" cy="14.4" r="2.2"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g transform="translate(119.459,98.6666)">
+		<g id="copper0_00000146502046955689595320000011980324188688923317_">
+			<g transform="matrix(-1, 0, 0, 1, 17.5748, 0)">
+				<g>
+					<g>
+						<g>
+							<rect id="connector0pad_00000183943428030878695480000001015464518896069509_" x="0" y="7.7" width="5.1" height="-7.7"/>
+							<rect id="connector1pad_00000003089146948264848960000002686739355343539086_" x="12.5" y="7.7" width="5.1" height="-7.7"/>
+							<g id="copper0_00000007404603450004286450000002814040025472428162_">
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g transform="translate(174.57,90.2533)">
+		<g id="copper0_00000013899285121936233180000010148802217836087478_">
+			<circle id="connector0pin" class="st1" cx="5" cy="5" r="2.1"/>
+			<circle id="connector1pin" class="st1" cx="5" cy="12.2" r="2.1"/>
+			<circle id="connector2pin" class="st1" cx="5" cy="19.4" r="2.1"/>
+			<circle id="connector3pin" class="st1" cx="5" cy="26.6" r="2.1"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g transform="translate(90.3297,74.4133)">
+		<g transform="matrix(-1,0,0,-1,0,0)">
+			<g id="copper0_00000046307597996571715130000005101886606986181769_">
+				<g id="copper1">
+					<g id="connector0pin_00000098191016996687223220000017357055542675418781_">
+						<rect id="square" x="2.2" y="5.8" class="st1" width="4.3" height="4.3"/>
+						<circle class="st1" cx="4.3" cy="7.9" r="2.2"/>
+					</g>
+					<circle id="connector1pin_00000163751261007853547980000013012260843452623513_" class="st1" cx="4.3" cy="22.3" r="2.2"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g transform="translate(96.5087,175.321)">
+		<g transform="matrix(-1,0,0,-1,0,0)">
+			<g id="copper0_00000075120611458908445180000004618899774984242828_">
+				<g id="copper1_00000051359132269415490210000007544198870351433911_">
+					<g id="connector0pin_00000106853219621479147540000011488651989494963881_">
+						
+							<rect id="square_00000022542358358262043390000015263482911546670746_" x="2.2" y="5.8" class="st1" width="4.3" height="4.3"/>
+						<circle class="st1" cx="4.3" cy="7.9" r="2.2"/>
+					</g>
+					<circle id="connector1pin_00000086687183263124215190000002902520885186259075_" class="st1" cx="4.3" cy="22.3" r="2.2"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g transform="translate(205.53,160.813)">
+		<g transform="matrix(-1,0,0,-1,0,0)">
+			<g id="copper0_00000114759895456915024130000008138088329646242182_">
+				<g id="copper1_00000000939569144424592570000010611557392422688909_">
+					<g id="connector0pin_00000062888531176865078340000003551567898623558031_">
+						
+							<rect id="square_00000065056062465484803480000012297225388028574084_" x="2.2" y="5.8" class="st1" width="4.3" height="4.3"/>
+						<circle class="st1" cx="4.3" cy="7.9" r="2.2"/>
+					</g>
+					<circle id="connector1pin_00000060016058083392953670000005432125755613126067_" class="st1" cx="4.3" cy="22.3" r="2.2"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g transform="translate(151.53,4.57335)">
+		<g transform="matrix(0,1,-1,0,0,0)">
+			<g id="copper0_00000049926341413354331200000000546692558366890648_">
+				<g id="copper1_00000030451788353847245320000009391407863788965791_">
+					<g id="connector0pin_00000181783265660754995920000015386027074943927449_">
+						
+							<rect id="square_00000114774830299905608340000002286148787957911694_" x="2.2" y="5.8" transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 -3.6004 12.2396)" class="st1" width="4.3" height="4.3"/>
+						<circle class="st1" cx="4.3" cy="7.9" r="2.2"/>
+					</g>
+					<circle id="connector1pin_00000083798021193698660980000002659296214034610837_" class="st1" cx="4.3" cy="22.3" r="2.2"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g transform="translate(205.53,67.2133)">
+		<g transform="matrix(-1,0,0,-1,0,0)">
+			<g id="copper0_00000165208964845107384980000014824588858482172074_">
+				<g id="copper1_00000091008390627275506000000002844805777952989583_">
+					<g id="connector0pin_00000003817459025855413480000007436987847056640415_">
+						
+							<rect id="square_00000114072027194724476720000010991503592249668764_" x="2.2" y="5.8" class="st1" width="4.3" height="4.3"/>
+						<circle class="st1" cx="4.3" cy="7.9" r="2.2"/>
+					</g>
+					<circle id="connector1pin_00000002344034407911091420000014875874256089203372_" class="st1" cx="4.3" cy="22.3" r="2.2"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g transform="translate(121.556,152.922)">
+		<g transform="matrix(0,-1,1,0,0,0)">
+			<g id="copper0_00000127749323163889810410000001255059814257525673_">
+				<g transform="matrix(-1, 0, 0, 1, 14.4567, 0)">
+					<g>
+						<g>
+							<g>
+								
+									<rect id="connector0pad_00000178904078633436830100000011126255286784679849_" x="0.1" y="5.5" transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 -0.4251 6.0946)" width="5.4" height="-4.5"/>
+								
+									<rect id="connector1pad_00000005243984621813723070000005933453389219588490_" x="8.9" y="5.5" transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 8.3623 14.882)" width="5.4" height="-4.5"/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g transform="translate(148.032,76.9532)">
+		<g transform="matrix(-1,0,0,-1,0,0)">
+			<g id="copper0_00000080208578518137726200000012424738238980869025_">
+				<g transform="matrix(-1, 0, 0, 1, 14.4567, 0)">
+					<g>
+						<g>
+							<g>
+								<rect id="connector0pad_00000070097863152696676560000015640881760427978893_" x="0.6" y="6" width="4.5" height="-5.4"/>
+								<rect id="connector1pad_00000113311058540759295940000012385235025754787514_" x="9.4" y="6" width="4.5" height="-5.4"/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g transform="translate(149.676,131.265)">
+		<g transform="matrix(0,1,-1,0,0,0)">
+			<g id="copper0_00000045579337820990805940000009797343504704035748_">
+				<g transform="matrix(-1, 0, 0, 1, 14.4567, 0)">
+					<g>
+						<g>
+							<g>
+								
+									<rect id="connector0pad_00000004538056234301222360000012984413293812876166_" x="0.1" y="5.5" transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 -0.4253 6.0944)" width="5.4" height="-4.5"/>
+								
+									<rect id="connector1pad_00000118356629267932304440000002501064003108848822_" x="8.9" y="5.5" transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 8.3622 14.8818)" width="5.4" height="-4.5"/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<line class="st5" x1="178.6" y1="96.3" x2="166.1" y2="108.8"/>
+</g>
+<g>
+	<line class="st5" x1="180" y1="108.4" x2="180.6" y2="106.3"/>
+</g>
+<g>
+	<line class="st5" x1="180.6" y1="106.3" x2="184" y2="106.3"/>
+</g>
+<g>
+	<line class="st5" x1="184" y1="106.3" x2="184" y2="90.7"/>
+</g>
+<g>
+	<line class="st5" x1="184" y1="90.7" x2="166.5" y2="88.3"/>
+</g>
+<g>
+	<line class="st5" x1="136.4" y1="76" x2="136.4" y2="86.6"/>
+</g>
+<g>
+	<line class="st5" x1="134.9" y1="99.1" x2="136.2" y2="89.6"/>
+</g>
+<g>
+	<line class="st5" x1="133.8" y1="56.5" x2="136.1" y2="71.4"/>
+</g>
+<g>
+	<line class="st5" x1="145.7" y1="132.2" x2="135.8" y2="105.9"/>
+</g>
+<g>
+	<line class="st5" x1="126.7" y1="139.4" x2="135.6" y2="130.5"/>
+</g>
+<g>
+	<line class="st5" x1="135.6" y1="130.5" x2="144.1" y2="133.3"/>
+</g>
+<g>
+	<line class="st5" x1="108.7" y1="131.9" x2="122.5" y2="140"/>
+</g>
+<g>
+	<line class="st5" x1="178.6" y1="117.8" x2="165" y2="130.5"/>
+</g>
+<g>
+	<line class="st5" x1="165" y1="130.5" x2="149.5" y2="130.5"/>
+</g>
+<g>
+	<line class="st5" x1="149.5" y1="130.5" x2="148" y2="132.2"/>
+</g>
+<g>
+	<line class="st5" x1="130.1" y1="10.1" x2="132.2" y2="13"/>
+</g>
+<g>
+	<line class="st5" x1="132.2" y1="13" x2="133.5" y2="53.5"/>
+</g>
+<g>
+	<line class="st5" x1="93.4" y1="166.6" x2="111.5" y2="154.7"/>
+</g>
+<g>
+	<line class="st5" x1="111.5" y1="154.7" x2="122.5" y2="150.9"/>
+</g>
+<g>
+	<line class="st5" x1="166.2" y1="67.3" x2="187.5" y2="85.5"/>
+</g>
+<g>
+	<line class="st5" x1="187.5" y1="85.5" x2="187.5" y2="109.7"/>
+</g>
+<g>
+	<line class="st5" x1="187.5" y1="109.7" x2="184" y2="121.8"/>
+</g>
+<g>
+	<line class="st5" x1="184" y1="121.8" x2="168.5" y2="133.9"/>
+</g>
+<g>
+	<line class="st5" x1="168.5" y1="133.9" x2="151.2" y2="139.1"/>
+</g>
+<g>
+	<line class="st5" x1="151.2" y1="139.1" x2="133.9" y2="139.1"/>
+</g>
+<g>
+	<line class="st5" x1="133.9" y1="139.1" x2="126.4" y2="148.2"/>
+</g>
+<g>
+	<line class="st5" x1="106.4" y1="146.2" x2="102.8" y2="147.7"/>
+</g>
+<g>
+	<line class="st5" x1="102.8" y1="147.7" x2="93.5" y2="152.4"/>
+</g>
+<g>
+	<line class="st5" x1="199.8" y1="152.9" x2="136.4" y2="152.9"/>
+</g>
+<g>
+	<line class="st5" x1="136.4" y1="152.9" x2="132.2" y2="171.9"/>
+</g>
+<g>
+	<line class="st5" x1="132.2" y1="171.9" x2="87.3" y2="171.9"/>
+</g>
+<g>
+	<line class="st5" x1="87.3" y1="171.9" x2="87.3" y2="159.8"/>
+</g>
+<g>
+	<line class="st5" x1="87.3" y1="159.8" x2="94.2" y2="159.8"/>
+</g>
+<g>
+	<line class="st5" x1="94.2" y1="159.8" x2="102.8" y2="147.7"/>
+</g>
+<g>
+	<line class="st5" x1="106.9" y1="125.1" x2="83.8" y2="156.4"/>
+</g>
+<g>
+	<line class="st5" x1="83.8" y1="156.4" x2="83.8" y2="177.1"/>
+</g>
+<g>
+	<line class="st5" x1="83.8" y1="177.1" x2="133.9" y2="177.1"/>
+</g>
+<g>
+	<line class="st5" x1="133.9" y1="177.1" x2="152.9" y2="168.5"/>
+</g>
+<g>
+	<line class="st5" x1="152.9" y1="168.5" x2="152.9" y2="156.4"/>
+</g>
+<g>
+	<line class="st5" x1="152.9" y1="156.4" x2="206.5" y2="158.1"/>
+</g>
+<g>
+	<line class="st5" x1="206.5" y1="158.1" x2="206.5" y2="147.7"/>
+</g>
+<g>
+	<line class="st5" x1="206.5" y1="147.7" x2="148.7" y2="143.1"/>
+</g>
+<g>
+	<line class="st5" x1="201.9" y1="139.7" x2="206.5" y2="147.7"/>
+</g>
+<g>
+	<line class="st5" x1="122" y1="89.6" x2="122" y2="99.1"/>
+</g>
+<g>
+	<line class="st5" x1="108.5" y1="116" x2="119.9" y2="104.6"/>
+</g>
+<g>
+	<line class="st5" x1="145.5" y1="71.4" x2="147.7" y2="56.5"/>
+</g>
+<g>
+	<line class="st5" x1="164.5" y1="101.4" x2="146.8" y2="76"/>
+</g>
+<g>
+	<line class="st5" x1="140.8" y1="53.5" x2="140.8" y2="51.8"/>
+</g>
+<g>
+	<line class="st5" x1="140.8" y1="51.8" x2="161.6" y2="40.6"/>
+</g>
+<g>
+	<line class="st5" x1="161.6" y1="40.6" x2="170.2" y2="40.6"/>
+</g>
+<g>
+	<line class="st5" x1="170.2" y1="40.6" x2="170.2" y2="44.1"/>
+</g>
+<g>
+	<line class="st5" x1="170.2" y1="44.1" x2="199.8" y2="44.9"/>
+</g>
+<g>
+	<line class="st5" x1="128.7" y1="86.7" x2="111.5" y2="40.6"/>
+</g>
+<g>
+	<line class="st5" x1="111.5" y1="40.6" x2="99.4" y2="40.6"/>
+</g>
+<g>
+	<line class="st5" x1="99.4" y1="40.6" x2="87.1" y2="51.2"/>
+</g>
+<g>
+	<line class="st5" x1="202.4" y1="58.6" x2="206.5" y2="56.2"/>
+</g>
+<g>
+	<line class="st5" x1="206.5" y1="56.2" x2="206.5" y2="40.6"/>
+</g>
+<g>
+	<line class="st5" x1="206.5" y1="40.6" x2="144.9" y2="9.5"/>
+</g>
+<g>
+	<line class="st5" x1="85.4" y1="65.2" x2="80.4" y2="54.4"/>
+</g>
+<g>
+	<line class="st5" x1="80.4" y1="54.4" x2="80.4" y2="47.5"/>
+</g>
+<g>
+	<line class="st5" x1="80.4" y1="47.5" x2="123.6" y2="4.3"/>
+</g>
+<g>
+	<line class="st5" x1="123.6" y1="4.3" x2="133.9" y2="4.3"/>
+</g>
+<g>
+	<line class="st5" x1="133.9" y1="4.3" x2="142.3" y2="8.3"/>
+</g>
+</svg>
