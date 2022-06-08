@@ -59,7 +59,7 @@ References used
 - [ESP32 Light Sensor](https://esp32io.com/tutorials/esp32-light-sensor)
 - [Thermistor with Arduino](https://www.e-tinkers.com/2019/10/using-a-thermistor-with-arduino-and-unexpected-esp32-adc-non-linearity/)
 - [Thermistor Library](https://www.arduino.cc/reference/en/libraries/thermistorlibrary/)
-
+- [Wifi connection](https://lastminuteengineers.com/bme280-esp32-weather-station/)
 
 
 #### Fabrication
@@ -95,6 +95,7 @@ Using proper resistor to each sensor. The sensor changes its value acording to t
 
 #### Integrated Design
 Interfaces server with the output values of our sensors : http://172.16.23.12/
+
 
 #### Future Development Opportunities
 With this photobioreator, we aim to be able to maintain a very controlled environment. Something that could help with this is adding a motorized shade that protects the bottles from direct sunlight when it gets too hot. We would need to add additional light sensors facing the outside of the box to detect the amount of sunlight coming in. We also thought about measuring C02 concentrations to see if the algae was in fact bioremediating the air.
