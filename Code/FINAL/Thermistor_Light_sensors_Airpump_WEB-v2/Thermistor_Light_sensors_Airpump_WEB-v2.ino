@@ -18,12 +18,12 @@
 /////////////////// Init Air Pump Timer ///////////////////
 
 // Pump Test
-const long AirpumpInterval = 10000;
-const long AirpumpRuntime = 2000;
+//const long AirpumpInterval = 10000;
+//const long AirpumpRuntime = 2000;
 
 //PUMP RUNNING
-//const long AirpumpInterval = 3600000;
-//const long AirpumpRuntime = 300000;
+const long AirpumpInterval = 3600000;
+const long AirpumpRuntime = 300000;
 
 unsigned long lastTimePumpStart = 0;
 unsigned long lastTimePumpStop = 0;
