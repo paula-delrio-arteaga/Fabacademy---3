@@ -5,7 +5,7 @@
 
 // Analog pin used to read the NTC
 #define NTC_PIN    A7
-#define GROW_LEDS  25
+//#define GROW_LEDS  25
 
 // Thermistor object
 
@@ -18,12 +18,12 @@
 /////////////////// Init Air Pump Timer ///////////////////
 
 // Pump Test
-//const long AirpumpInterval = 10000;
-//const long AirpumpRuntime = 2000;
+const long AirpumpInterval = 10000;
+const long AirpumpRuntime = 2000;
 
 //PUMP RUNNING
-const long AirpumpInterval = 3600000;
-const long AirpumpRuntime = 300000;
+//const long AirpumpInterval = 3600000;
+//const long AirpumpRuntime = 300000;
 
 unsigned long lastTimePumpStart = 0;
 unsigned long lastTimePumpStop = 0;
@@ -34,8 +34,8 @@ boolean IsPumpOn = true;
 /////////////////////Peristaltic Pump///////////////
 
 // Pump Test
-//const long LiquidInterval = 10000;
-//const long LiquidRuntime = 2000;
+const long LiquidInterval = 10000;
+const long LiquidRuntime = 2000;
 
 //PUMP RUNNING
 //const long LiquidInterval = 3600000;
@@ -65,7 +65,7 @@ void setup() {
   Serial.begin(9600);
   pinMode(Relay, OUTPUT);
   pinMode(Mosfet, OUTPUT);
-  pinMode(GROW_LEDS, OUTPUT);
+//  pinMode(GROW_LEDS, OUTPUT);
 
   /////////////////////////////////
 
@@ -115,13 +115,13 @@ void loop(){
   //Serial.print(temp1);
   //TempText = "Temp in 1/10 ºC : " ;
 
-  if (temp > 200) {
-    digitalWrite(GROW_LEDS,   LOW);;
-
-  } else {
-    digitalWrite(GROW_LEDS,   HIGH);;
-
-  };
+//  if (temp > 200) {
+//    digitalWrite(GROW_LEDS,   LOW);;
+//
+//  } else {
+//    digitalWrite(GROW_LEDS,   HIGH);;
+//
+//  };
 
   int analogValue = analogRead(LIGHT);
 
